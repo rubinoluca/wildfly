@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.ait</groupId>
-    <artifactId>helloworld</artifactId>
+    <artifactId>helloworld-ws</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>helloworld</name>
@@ -35,7 +35,6 @@
 
     <build>
         <directory>${project.basedir}/../target</directory>
-        <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
         <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
