@@ -19,7 +19,12 @@ Basic SOAP web service. To launch arquillian test:
 
 **/helloworld-rs**
 
-Basic JAX-RS example. Wildfly restart required.
-After deployment, launch:
+Basic JAX-RS example. After deployment, launch:
 
     http://localhost:8080/helloworld-rs/
+
+**/helloworld-mdb**
+
+Basic message driven bean example. Wildfly restart required, because wildfly uses full configuration with HornetMQ service.
+
+   http://localhost:8080/helloworld-mdb/
