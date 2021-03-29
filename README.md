@@ -19,6 +19,7 @@ Basic SOAP web service. To launch arquillian test:
 
 **/helloworld-rs**
 
-Basic JAX-RS example. After deployment, launch:
+Basic JAX-RS example. Wildfly restart required.
+After deployment, launch:
 
     http://localhost:8080/helloworld-rs/
