@@ -1,6 +1,10 @@
 # Wildfly examples
 Wildfly Application Server: selected feature examples from https://github.com/wildfly/quickstart repository
 
+Start a standalone Wildfly server: **wildfly:start**
+
+Launch an example: **wildfly:deploy**
+
 ## 1. **/helloword**
 
 Basic servlet and a simple CDI service. 
