@@ -44,6 +44,10 @@
                 <version>2.1.0.Beta1</version>
                 <configuration>
                     <java-opts>
+                        <!-- allow remote access -->
+                        <java-opt>-Djboss.bind.address.management=0.0.0.0</java-opt>
+                        <java-opt>-Djboss.bind.address=0.0.0.0</java-opt>
+                        <!-- debug setting -->
                         <!--java-opt>-agentlib:jdwp=transport=dt_socket,address=5005,server=y</java-opt-->
                     </java-opts>
                     <add-user>
