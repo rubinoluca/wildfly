@@ -9,7 +9,7 @@ Launch an example: **wildfly:deploy**
 
 Basic servlet and a simple CDI service. 
 
-    http://localhost:8080/helloworld-singleton/
+    http://localhost:8080/helloworld/
 
 ## 2. **/helloworld-singleton**
 
