@@ -42,3 +42,7 @@ Basic message driven bean example. Wildfly restart required, because wildfly use
 
     http://localhost:8080/helloworld-mdb/
 
+
+## 6. **/primefaces**
+
+Primefaces 10 simple demo with templates.
