@@ -1,0 +1,26 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core" xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="template.xhtml">
+    <ui:define name="content">
+        <p:card>
+            <h:form id="greetForm">
+                <p:panelGrid columns="3">
+                    <p:outputLabel for="username">Enter username:</p:outputLabel>
+                    <h:inputText id="username" value="#{greetController.username}" />
+                    <h:message for="username" />
+                </p:panelGrid>
+                <br />
+                <p:commandButton id="greet" update="done" value="Greet!" action="#{greetController.greet}" />
+                <br />
+                <h:outputText id="done" value="#{greetController.greeting}"/>
+                <br />
+            </h:form>
+        </p:card>
+        <p:link outcome="/create.xhtml" value="Add a new user" />
+    </ui:define>
+</ui:composition>
+
+</html>
