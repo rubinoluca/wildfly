@@ -49,3 +49,7 @@ Simple Primefaces 10 demo with JSF templates.
 ## 7. **/greeter**
 
 Simple JSF + JPA example
+
+## 8. **/mdb-DLQ**
+
+DLQ example, simulates not delivered messages.
