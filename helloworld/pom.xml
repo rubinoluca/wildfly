@@ -9,7 +9,7 @@
 
     <name>helloworld</name>
     <!-- FIXME change it to the project's website -->
-    <url>http://wildfly-jbossapp.apps-crc.testing</url>
+    <url>http://wildfly-jbossapp.apps-crc.testing/</url>
     <packaging>war</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,8 +45,8 @@
                 <configuration>
                     <java-opts>
                         <!-- allow remote access -->
-                        <java-opt>-Djboss.bind.address.management=http://wildfly-jbossapp.apps-crc.testing</java-opt>
-                        <java-opt>-Djboss.bind.address=http://wildfly-jbossapp.apps-crc.testing</java-opt>
+                        <java-opt>-Djboss.bind.address.management=0.0.0.0</java-opt>
+                        <java-opt>-Djboss.bind.address=0.0.0.0</java-opt>
                         <!-- debug setting -->
                         <!--java-opt>-agentlib:jdwp=transport=dt_socket,address=5005,server=y</java-opt-->
                     </java-opts>
