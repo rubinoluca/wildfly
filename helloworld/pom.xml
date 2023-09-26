@@ -9,7 +9,7 @@
 
     <name>helloworld</name>
     <!-- FIXME change it to the project's website -->
-    <url>http://wildfly-jbossapp.apps-crc.testing</url>
+    <url>wildfly-jbossapp.apps-crc.testing</url>
     <packaging>war</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
